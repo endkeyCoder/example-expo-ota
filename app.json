@@ -10,6 +10,22 @@
       "eas": {
         "projectId": "0e1933ac-f48e-40e1-9aaf-89cbd0a524a8"
       }
-    }
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/0e1933ac-f48e-40e1-9aaf-89cbd0a524a8",
+      "requestHeaders": {
+        "expo-channel-name": "preview",
+        "expo-runtime-version": "1.0.0",
+        "expo-platform": "ios"
+      }
+    },
+    "android": {
+      "package": "com.endkeycodersimpli.ProjectOTA"
+    },
+    "ios": {
+      "bundleIdentifier": "com.endkeycodersimpli.ProjectOTA"
+    },
+    "owner": "endkeycodersimpli"
   }
 }
