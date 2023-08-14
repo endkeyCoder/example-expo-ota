@@ -1,4 +1,4 @@
-package com.projectota;
+package com.endkeycodersimpli.ProjectOTA;
 
 import android.os.Build;
 import android.os.Bundle;
