@@ -1,0 +1,25 @@
+name: Dispatch Test Build Android
+
+on:
+  workflow_dispatch:
+    inputs:
+        environment:
+          description: 'Environment for the build (iOS or Android)'
+          required: true
+          type: choice
+          options:
+            - production
+            - staging
+            - beta
+      
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    
+    - name: Log Environment
+      run: |
+          echo ${{ github.event.inputs.environment }}
+          echo $ENVIRONMENT
