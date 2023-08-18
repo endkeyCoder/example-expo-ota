@@ -1,10 +1,6 @@
 name: Main 2
 
 on:
-  push:
-    branches:
-      - endkeyCoder-patch-1
-      
   workflow_dispatch:
     inputs:
         environment:
